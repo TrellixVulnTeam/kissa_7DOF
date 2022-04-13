@@ -68,7 +68,7 @@ body{
     font-size: 20px;
     font-weight: lighter;
     text-transform:capitalize;
-    color:blueviolet;
+    color:darkviolet;
     display:flex;
     grid-row: 2;
     grid-column: 4/6;
@@ -110,7 +110,7 @@ body{
     border-radius: 10px;
 }
 .navbar{
-    background-color:lightsteelblue;
+    background-color:darkorange;
     display:grid;
     grid-template-columns:repeat(8,1fr);
     width:100%;
