@@ -18,7 +18,7 @@ p{
 }
 
 body{
-    background-color:white
+    background-color:lightgrey
 }
 /*header*/
 .header{
@@ -147,6 +147,11 @@ body{
     display: flex;
     justify-content: center;
 }
+.img__slider{
+    animation-name: animate__slideInRight;
+    animation-duration: 2s;
+    animation-iteration-count:initial;
+}
 
 .seccion__productos{
     max-width: 100%;
@@ -163,12 +168,20 @@ body{
     align-self: start;
 }
 
+.producto1:hover{
+    transform:scale(1.15)
+}
+
 .producto2{
     grid-area: producto2;
     display: grid;
     grid-column: 4/6;
     grid-row: 2/8;
     align-self: start;
+}
+
+.producto2:hover{
+    transform:scale(1.15)
 }
 
 .producto3{
@@ -179,10 +192,14 @@ body{
     align-self: end;
 }
 
+.producto3:hover{
+    transform:scale(1.15)
+}
+
 .piedepagina{
     display: grid;
     height: 40px;
-    background-image: radial-gradient( circle 588px at 31.7% 40.2%,  rgba(225,200,239,1) 21.4%, rgba(163,225,233,1) 57.1% );
+    background-color: darkorange;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     align-items: center;
