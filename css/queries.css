@@ -1,0 +1,80 @@
+@media screen and (max-width:600px){
+    .header__encabezado{
+        font-size: 30px;
+    }
+
+    .header__slogan{
+        font-size: 12px;
+    }
+    
+    .header__logo{
+        margin-left: 10px;
+        margin-top: 10px;
+        height: 25px;
+        width: 40px;
+        grid-column: 1/2;
+    }
+
+    .navbar{
+        position: relative;
+    }
+
+    .nav__menu{
+        display: none;
+    }
+
+    .seccion__texto{
+        font-size: 12px;
+    }
+
+    .seccion__imagen{
+        width: 60%;
+        height: 50%;
+        display:block;
+        grid-column: 6/9;
+        grid-row:2/6;
+    }
+
+    .img__slider{
+        width: 60%;
+        height: 50%;
+    }
+
+    .producto1{
+        font-size: 15px;
+    }
+
+    .producto2{
+        font-size: 15px;
+    }
+
+    .producto3{
+        font-size: 15px;
+    }
+
+    .seccion_textocamita1{
+        font-size: 12px;
+    }
+
+    .seccion_textocamita2{
+        font-size: 12px;
+    }
+
+    .seccion_textocamita3{
+        font-size: 12px;
+    }
+
+    .seccion__camita1{
+        height: 60%;
+        width: 70%;
+    }
+
+    .seccion__camita2{
+        height: 60%;
+        width: 70%;
+    }
+    .seccion__camita3{
+        height: 60%;
+        width: 70%;
+    }
+}
