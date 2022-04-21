@@ -1,6 +1,6 @@
 @media screen and (max-width:600px){
-    .header__encabezado{
-        font-size: 30px;
+    .header.encabezado{
+        font-size: 15px;
     }
 
     .header__slogan{
@@ -17,10 +17,6 @@
 
     .navbar{
         position: relative;
-    }
-
-    .nav__menu{
-        display: none;
     }
 
     .seccion__texto{
@@ -76,5 +72,15 @@
     .seccion__camita3{
         height: 60%;
         width: 70%;
+    }
+}
+
+@media screen and (max-width:300px){
+    .header__encabezado{
+        display:none;
+    }
+
+    .header__slogan{
+        display:none;
     }
 }
