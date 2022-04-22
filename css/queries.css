@@ -1,5 +1,5 @@
 @media screen and (max-width:600px){
-    .header.encabezado{
+    .header__encabezado{
         font-size: 15px;
     }
 
@@ -75,7 +75,7 @@
     }
 }
 
-@media screen and (max-width:300px){
+@media screen and (max-width:400px){
     .header__encabezado{
         display:none;
     }
@@ -83,4 +83,20 @@
     .header__slogan{
         display:none;
     }
+
+    .nav__item{
+        display:none
+    }
+
+    .text-muted{
+        font-size: 9px;
+    }
+
+}
+
+@media screen and (min-width:576px){
+    .nav__menu{
+        display:none;
+    }
+
 }
