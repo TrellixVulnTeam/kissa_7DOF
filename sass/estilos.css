@@ -124,6 +124,7 @@ body {
 
 .navbar {
   background-color: #ff8c00;
+  margin-bottom: 20px;
   display: -ms-grid;
   display: grid;
   width: 100%;
