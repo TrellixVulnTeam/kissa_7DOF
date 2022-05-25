@@ -19,13 +19,33 @@
         position: relative;
     }
 
+    .nav__item{
+        font-size: 12px;
+    }
+
+    .home__titulo{
+        font-size: 25px;
+    }
+
+    .home__texto{
+        font-size: 20px;
+    }
+
+    .productos__texto{
+        font-size: 20px;
+    }
+
+    .comprar__texto{
+        font-size: 20px;
+    }
+
     .seccion__texto{
         font-size: 12px;
     }
 
     .seccion__imagen{
-        width: 60%;
-        height: 50%;
+        width: 50%;
+        height: 70%;
         display:block;
         grid-column: 6/9;
         grid-row:2/6;
@@ -34,6 +54,10 @@
     .img__slider{
         width: 60%;
         height: 50%;
+    }
+
+    .card-text{
+        font-size: 15px;
     }
 
     .producto1{
@@ -73,15 +97,31 @@
         height: 60%;
         width: 70%;
     }
+
+    .formulario{
+        font-size: 15px;
+    }
+
+    .text-muted{
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width:400px){
     .header__encabezado{
-        display:none;
+        font-size: 12px;
     }
 
     .header__slogan{
-        display:none;
+        font-size: 8px;
+    }
+
+    .header__logo{
+        margin-left: 5px;
+        margin-top: 5px;
+        height: 15px;
+        width: 25px;
+        grid-column: 1/2;
     }
 
     .nav__item{
@@ -92,6 +132,36 @@
         font-size: 9px;
     }
 
+    .home__titulo{
+        font-size: 20px;
+    }
+
+    .home__texto{
+        font-size: 15px;
+    }
+
+    .productos__texto{
+        font-size: 15px;
+    }
+
+    .comprar__texto{
+        font-size: 15px;
+    }
+
+    .card-text{
+        font-size: 12px;
+    }
+
+    .formulario{
+        font-size: 12px;
+    }
+
+    .seccion__imagen{
+        width: 40%;
+        height: 80%;
+        display:block;
+        }
+
 }
 
 @media screen and (min-width:576px){
@@ -99,4 +169,10 @@
         display:none;
     }
 
+}
+
+@media screen and (max-width: 450px){
+    .mapa{
+        display: none;
+    }
 }
